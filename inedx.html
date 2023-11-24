@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <style>
+    .body {
+        background-image: linear-gradient(to right, #7B2CBF, #10002B);
+    }
+    .signup {
+        background-color: black;
+        margin: auto;
+        width: 90%;
+        margin-top: 5%;
+        border-radius: 15px;
+        padding: 10px;
+        flex: auto;
+        height: 600px;
+    }
+    .p1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        color: white;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+    .input {
+        margin-left: 5%;
+        width: 20%;
+        padding: 10px;
+        border-radius: 10px;
+        border-color: transparent;
+    }
+    .input:hover {
+        border-color: #7B2CBF;
+    }
+    .input2 {
+        margin-left: 5%;
+        width: 20%;
+        padding: 10px;
+        border-radius: 10px;
+        border-color: transparent;
+        margin-top: 10px;
+    }
+    .btn1 {
+        cursor: pointer;
+        margin-left: 5%;
+        width: 22%;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        border-color: transparent;
+        margin-top: 10px;
+        background-image: linear-gradient(to right, #7B2CBF , #10002B);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .img1 {
+        width: 20%;
+        position: absolute;
+        top: 20%;
+        right: 20%;
+    }
+    .p2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        margin-left: 4%;
+        margin-top: 3%;
+        width: 300px;
+        text-align: center;
+    }
+    .a1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #7B2CBF;
+        margin-top: 3%;
+        text-decoration: none;
+    }
+    .btn1:hover {
+        background-color: #10002B;
+    }
+</style>
+</head>
+<body class="body">
+    <!--HEADER-->
+    <header>
+        
+
+    </header>
+    <!--MAIN-->
+    <main>
+        <!--LOGIN SECTION-->
+        <div class="signup">
+            <p class="p1">Sign Up</p>
+            <input type="email" name="username"
+            placeholder="Username" class="input" required><br>
+            <input type="password" name="password"
+            placeholder="Password" class="input2" required
+            pattern="(?=.*\d)(?=*[a-z])(?=.*[A-Z]).{8}" max="10" min="8"><br>
+            <input type="password" name="confirmpassword"
+            placeholder="Confirm Password" class="input2" required
+            pattern="(?=.*\d)(?=*[a-z])(?=.*[A-Z]).{8}" max="10" min="8"><br>
+            <p class="p2">
+                By signin up, you agree to our <br>
+                <a href="#" class="a1">Terms of Use</a>
+                and
+                <a href="#" class="a1">Privecy Policy</a>
+            </p>
+            <button type="submit" class="btn1">Create Account</button>
+            <p class="p2">Already have an account?
+                <a href="#" class="a1">Login</a>
+            </p>
+            </div>
+            <div>
+                <img src="images/eagle01.jpg" alt="Not Found" class="img1">
+            </div>
+    
+
+    </main>
+    <!--FOOTER-->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
